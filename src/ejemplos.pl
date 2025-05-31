@@ -1,8 +1,6 @@
 
 % Ejemplo 1
-/*
- Actividad Prolog Familia
-*/
+
 % Hechos
 mujer(elena).
 mujer(laura).
@@ -20,24 +18,47 @@ padre(ricardo, laura).% se lee "ricardo es padre de laura"
 padre(ricardo, luis).
 padre(luis, tomas).
 padre(luis, claudia).
-padre(jose, martin).
+padre(martin, jose).
 madre(elena, luis).
 madre(elena, laura).
 madre(silvia, tomas).
 madre(silvia, claudia).
-madre(laura, martin).
+madre(claudia, martin).
 
-%Reglas
-hijoDe(X, Y) :- padre(Y, X). % se lee "X es hijo de Y si Y es padre de X"  :- significa "si"
+% Reglas
 
-% regla de conjuncion
-abuelo(X, Y) :- padre(X, Z), padre(Z, Y).
-abuela(X, Y) :- madre(X, Z), madre(Z, Y).% se lee "X es abuela de Y si X es madre de Z y Z es madre de Y"
-esTio(X, Y) :- sonHermanos(X, Z), (padre(Z, Y); madre(Z, Y)).
+% regla de conjuncion una coma es igual a un and
+abuelo(X, Y) :- padre(X, Z), padre(Z, Y), !.% :- significa "si"
+abuela(X, Y) :- madre(X, Z), madre(Z, Y), !.% se lee "X es abuela de Y si X es madre de Z y Z es madre de Y"
+esTio(X, Y) :- sonHermanos(X, Z), (padre(Z, Y); madre(Z, Y)), !.
 
-%reglas de disyuncion
+%reglas de disyuncion un punto y coma es igual a un or
 sonHermanos(X, Y) :- ((padre(P, X), padre(P, Y)) ; (madre(M, X), madre(M, Y))), X \= Y, !. % ; es disyuncion, se lee "X es hermano de Y si X y Y tienen el mismo padre o la misma madre, y X es distinto a Y"
-esNieto(X, Y) :- abuelo(Y, X) ; abuela(Y, X).
+hijoDe(X, Y) :- padre(Y, X) ; madre(Y, X), !. % se lee "X es hijo de Y si Y es padre de X o Y es madre de X"
+esNieto(X, Y) :- abuelo(Y, X) ; abuela(Y, X), !.
+
+%reglas de recursividad
+esDescendiente(X, Y) :- hijoDe(X, Y), !.% caso base, se lee "X es descendiente de Y si X es hijo de Y"
+esDescendiente(X, Y) :- hijoDe(X, Z), esDescendiente(Z, Y), !. % caso recursivo, se lee "X es descendiente de Y si X es hijo de Z y Z es descendiente de Y"
+
+% algunas consultas
+% ¿Quiénes son los hijos de Ricardo?
+% ?- hijoDe(Hijo, ricardo).
+% ¿Quiénes son los abuelos de Claudia?
+% ?- abuelo(Abuelo, claudia).
+% ¿Quiénes son los tíos de Martín?
+% ?- esTio(Tio, claudia).
+% ¿Quiénes son los descendientes de Silvia?
+% ?- esDescendiente(jose, silvia).
+% ¿Quiénes son los nietos de Elena?
+% ?- esNieto(Nieto, silvia).
+
+% Consultas adicionales
+% ¿Quiénes son las mujeres de la familia?
+% ?- mujer(Mujer).
+% ¿Quiénes son los hombres de la familia?
+% ?- hombre(Hombre).
+
 
 
 
