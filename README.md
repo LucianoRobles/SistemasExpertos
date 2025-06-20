@@ -6,7 +6,7 @@
 
 
 ### Autores:
-- **Cesio Octavio**
+- **Cecio Octavio**
 - **Chiapani Valentino**
 - **Crisnejo Matias**
 - **Diani Julian**
