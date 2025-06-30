@@ -22,7 +22,7 @@
 <hr>
 
 <div>
-  <h3>Docente: Pablo Pandolfo</h3>
+  <h3><b>Docente:</b> Pablo Pandolfo</h3>
   <hr>
   <h3>Fecha: 30 de Junio de 2025</h3>
   <hr>
