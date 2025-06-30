@@ -1,37 +1,31 @@
-<h1 align="center">Trabajo Práctico 2</h1>
 <p align="center">
   <img src="./assert/logo.png" alt="Descripción de la imagen">
 </p>
 
+<h1 align="center">Tema: Sistemas Expertos</h1>
+<h2 align="center">Materia: Lógica y Programación</h2>
+<h3 align="center">Equipo 2</h3>
+<div >
+  <h2>Autores:</h2>
+  <ul>
+  <li><p><strong>Cecio Octavio</strong></p></li>
+  <li><p><strong>Chiappanni Valentino</strong></p></li>
+  <li><p><strong>Crisnejo Matias</strong></p></li>
+  <li><p><strong>Diani Julian</strong></p></li>
+  <li><p><strong>Fiordalisi Agustin</strong></p></li>
+  <li><p><strong>Llanez Alzogaray Juan Manuel</strong></p></li>
+  <li><p><strong>Olson Miriam</strong></p></li>
+  <li><p><strong>Robledo Javier</strong></p></li>
+  <li><p><strong>Robles Luciano</strong></p>
+</div></li>
+</ul>
+<hr>
 
-<div align="center">
-  <h3>Autores:</h3>
-  <p><strong>Cecio Octavio</strong></p>
-  <p><strong>Chiappanni Valentino</strong></p>
-  <p><strong>Crisnejo Matias</strong></p>
-  <p><strong>Diani Julian</strong></p>
-  <p><strong>Fiordalisi Agustin</strong></p>
-  <p><strong>Llanez Alzogaray Juan Manuel</strong></p>
-  <p><strong>Olson Miriam</strong></p>
-  <p><strong>Robledo Javier</strong></p>
-  <p><strong>Robles Luciano</strong></p>
-</div>
-<div align="center">
-  <h3>Institución:</h3>
-  <p><strong>Universidad Nacional de Hurlingham</strong></p>
-</div>
-<div align="center">
-  <h3>Materia:</h3>
-  <p><strong>Lógica y Programación</strong></p>
-  
-  <h3>Docente:</h3>
-  <p><strong>Pablo Pandolfo</strong></p>
-  
-  <h3>Tema:</h3>
-  <p><strong>Sistemas Expertos</strong></p>
-  
-  <h3>Fecha:</h3>
-  <p><strong>30 de Junio de 2025</strong></p>
+<div>
+  <h3>Docente: Pablo Pandolfo</h3>
+  <hr>
+  <h3>Fecha: 30 de Junio de 2025</h3>
+  <hr>
 </div>
 
 # ¿Que es un Sistema Experto?
