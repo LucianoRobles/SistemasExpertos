@@ -31,7 +31,7 @@
   <p><strong>Sistemas Expertos</strong></p>
   
   <h3>Fecha:</h3>
-  <p><strong>23 de Junio de 2025</strong></p>
+  <p><strong>30 de Junio de 2025</strong></p>
 </div>
 
 # ¿Que es un Sistema Experto?
