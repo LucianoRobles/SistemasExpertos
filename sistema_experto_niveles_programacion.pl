@@ -1,12 +1,12 @@
-*/
-El siguiente sistema experto es un Sistema Basado en Reglas (Rule-Based Systems): Usa reglas de 
+/**
+ El siguiente sistema experto es un Sistema Basado en Reglas (Rule-Based Systems): Usa reglas de 
 inferencia para brindar el conocimiento experto. Permitirá evaluar el nivel de conocimiento de 
-programación de distintos estudiantes y recomendarles qué conceptos estudiar en base a los 
-conocimientos ya adquiridos.
-*/
-
+ programación de distintos estudiantes y recomendarles qué conceptos estudiar en base a los 
+ conocimientos ya adquiridos.
+**/
 % HECHOS
-estudiantes([carlos, david, esteban, julian, matias, javier, paola]). %lista de estudiantes
+ %lista de estudiantes
+estudiantes([carlos, david, esteban, julian, matias, javier, paola]).
 
 % Conceptos clave por nivel
 principiantes([clases, variables, metodos, ciclos]).
@@ -210,7 +210,8 @@ listar_lista([H|T]) :- mostrar(H), listar_lista(T).
 Definiciones:
 call: 
     Es una función que te permite ejecutar un predicado de forma dinámica,
-	es como decir: usá esta variable como si fuera el nombre de un predicado y ejecutalo
+	es como decir: usá esta variable como si fuera el nombre de un predicado 
+    y ejecutalo
 	¿Por qué usar call?
 	Porque te permite escribir una sola regla general (listar_conceptos/1)
 	que sirve para cualquier nivel: principiantes, intermedios o avanzados.
