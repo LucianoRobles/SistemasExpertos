@@ -1,6 +1,10 @@
-%El siguiente sistema experto permitirá evaluar el nivel de 
-%conocimientos de programación de distintos estudiantes 
-%y recomendarles qué conceptos estudiar a continuación en base a los conocimientos ya adquiridos.
+*/
+El siguiente sistema experto es un Sistema Basado en Reglas (Rule-Based Systems): Usa reglas de 
+inferencia para brindar el conocimiento experto. Permitirá evaluar el nivel de conocimiento de 
+programación de distintos estudiantes y recomendarles qué conceptos estudiar en base a los 
+conocimientos ya adquiridos.
+*/
+
 % HECHOS
 estudiantes([carlos, david, esteban, julian, matias, javier, paola]). %lista de estudiantes
 
