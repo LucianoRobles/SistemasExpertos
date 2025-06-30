@@ -1,42 +1,37 @@
-<div align="center">
-# Trabajo Práctico 2
-</div>
+<h1 align="center">Trabajo Práctico 2</h1>
 <p align="center">
   <img src="./assert/logo.png" alt="Descripción de la imagen">
 </p>
 
 
 <div align="center">
-### Autores:
-- **Cecio Octavio**
-- **Chiappanni Valentino**
-- **Crisnejo Matias**
-- **Diani Julian**
-- **Fiordalisi Agustin**
-- **Llanez Alzogaray Juan Manuel**
-- **Olson Miriam**
-- **Robledo Javier** 
-- **Robles Luciano** 
+  <h3>Autores:</h3>
+  <p><strong>Cecio Octavio</strong></p>
+  <p><strong>Chiappanni Valentino</strong></p>
+  <p><strong>Crisnejo Matias</strong></p>
+  <p><strong>Diani Julian</strong></p>
+  <p><strong>Fiordalisi Agustin</strong></p>
+  <p><strong>Llanez Alzogaray Juan Manuel</strong></p>
+  <p><strong>Olson Miriam</strong></p>
+  <p><strong>Robledo Javier</strong></p>
+  <p><strong>Robles Luciano</strong></p>
 </div>
 <div align="center">
-### Institución:
-- **Universidad Nacional de Hurlingham**
+  <h3>Institución:</h3>
+  <p><strong>Universidad Nacional de Hurlingham</strong></p>
 </div>
 <div align="center">
-### Materia:
-- **Lógica y Programación**
-</div>
-<div align="center">
-### Docente:
-- **Pablo Pandolfo**
-</div>
-<div align="center">
-### Tema:
-- **Sistemas Expertos**
-</div>
-<div align="center">
-### Fecha:
-- **23 de Junio de 2025**
+  <h3>Materia:</h3>
+  <p><strong>Lógica y Programación</strong></p>
+  
+  <h3>Docente:</h3>
+  <p><strong>Pablo Pandolfo</strong></p>
+  
+  <h3>Tema:</h3>
+  <p><strong>Sistemas Expertos</strong></p>
+  
+  <h3>Fecha:</h3>
+  <p><strong>23 de Junio de 2025</strong></p>
 </div>
 
 # ¿Que es un Sistema Experto?
